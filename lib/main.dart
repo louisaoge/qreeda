@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     return ChangeNotifierProvider(
       create: (ctx) => Products(),
           child: MaterialApp(
-        title: 'MyShop',
+        title: 'Qreeda',
         theme: ThemeData(
           primarySwatch: Colors.red,
           accentColor: Colors.deepOrange,
