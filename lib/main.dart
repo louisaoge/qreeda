@@ -7,7 +7,8 @@ import 'providers/app_provider.dart';
 import 'util/consts.dart';
 
  //import './screens/products_overview_screen.dart';
- import './screens/product_detail_screen.dart';
+import './screens/cart_screen.dart';
+import './screens/product_detail_screen.dart';
 import './providers/products.dart';
 import './providers/cart.dart';
 import './views/splash/splash.dart';
@@ -44,7 +45,9 @@ class MyApp extends StatelessWidget {
           theme: themeData(appProvider.theme),
           darkTheme: themeData(ThemeConfig.darkTheme),
           home: Splash(),
-          routes: {ProductDetailScreen.routeName: (ctx) => ProductDetailScreen(),
+          routes: {
+            ProductDetailScreen.routeName: (ctx) => ProductDetailScreen(),
+            CartScreen.routeName: (ctx) => CartScreen(),
           }
         );
       },
