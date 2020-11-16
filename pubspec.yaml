@@ -24,6 +24,7 @@ dependencies:
   flutter:
     sdk: flutter
   provider: ^4.3.2+2
+  intl: ^0.16.1
   shared_preferences: ^0.5.4+5
   google_fonts: ^1.1.0
 
