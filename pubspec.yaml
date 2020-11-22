@@ -73,6 +73,11 @@ flutter:
     - family: Anton
       fonts:
         - asset: assets/fonts/Anton-Regular.ttf
+    - family: Futura
+      fonts:
+        - asset: assets/fonts/FuturaPTMedium.otf
+        - asset: assets/fonts/FuturaPTBold.otf
+          weight: 700
         # - asset: fonts/TrajanPro_Bold.ttf
         #   weight: 700
   

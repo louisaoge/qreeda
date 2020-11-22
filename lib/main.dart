@@ -90,9 +90,9 @@ class MyApp extends StatelessWidget {
   ThemeData themeData(ThemeData theme) {
     return 
     theme.copyWith(
-      textTheme: GoogleFonts.sourceSansProTextTheme(
+      textTheme:
         theme.textTheme,
-      ),
+      
     );
   }
 }
